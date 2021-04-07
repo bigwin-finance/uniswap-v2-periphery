@@ -8,6 +8,7 @@ import './interfaces/IUniswapV2Router01.sol';
 import './interfaces/IERC20.sol';
 import './interfaces/IWETH.sol';
 
+// 注入、取出流動性/資金；兌換虛擬貨幣
 contract UniswapV2Router01 is IUniswapV2Router01 {
     address public immutable override factory;
     address public immutable override WETH;

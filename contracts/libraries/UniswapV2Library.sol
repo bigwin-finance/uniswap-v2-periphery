@@ -4,6 +4,7 @@ import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 
 import "./SafeMath.sol";
 
+// 提供给内部调用的lib
 library UniswapV2Library {
     using SafeMath for uint;
 

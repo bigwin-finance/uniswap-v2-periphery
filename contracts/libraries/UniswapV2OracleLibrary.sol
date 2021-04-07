@@ -4,6 +4,7 @@ import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 import '@uniswap/lib/contracts/libraries/FixedPoint.sol';
 
 // library with helper methods for oracles that are concerned with computing average prices
+// 供預言機調用的lib
 library UniswapV2OracleLibrary {
     using FixedPoint for *;
 

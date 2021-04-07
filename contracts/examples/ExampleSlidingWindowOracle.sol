@@ -12,6 +12,7 @@ import '../libraries/UniswapV2OracleLibrary.sol';
 // `windowSize` with a precision of `windowSize / granularity`
 // note this is a singleton oracle and only needs to be deployed once per desired parameters, which
 // differs from the simple oracle which must be deployed once per pair.
+// 预言机范例部分
 contract ExampleSlidingWindowOracle {
     using FixedPoint for *;
     using SafeMath for uint;

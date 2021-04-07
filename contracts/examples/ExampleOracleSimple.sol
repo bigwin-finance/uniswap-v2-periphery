@@ -9,6 +9,7 @@ import '../libraries/UniswapV2Library.sol';
 
 // fixed window oracle that recomputes the average price for the entire period once every period
 // note that the price average is only guaranteed to be over at least 1 period, but may be over a longer period
+// 预言机范例
 contract ExampleOracleSimple {
     using FixedPoint for *;
 
